@@ -1,0 +1,218 @@
+ /* Large devices (laptops/desktops, 992px and up)  */
+@media (min-width: 992px) {
+    h1{
+        font-family: 'Titan One', cursive;
+        font-weight: 600;
+        font-size: 3em;
+        text-align: start;
+    }
+    h2,h5,p{
+        text-align: start;
+        margin: 20px 0px;
+        width: 80%;
+        font-family: 'Archivo', sans-serif;
+    }
+    h4{
+        margin: 35px 0px 15px;
+        font-size:2em;
+        font-family: 'Archivo', sans-serif;
+    }
+    a{
+        text-decoration: none;
+    }
+    h2{
+        width: 70%;
+        font-size: 2.5em;
+        line-height: 1;
+        font-family: 'Archivo', sans-serif;
+    }
+    #h2{
+        font-size: 3.5em;
+        width: 80%;
+    }
+    h5{
+        font-family: 'Roboto Slab', serif;
+        font-size: 1.4em;
+        color: #3AB0FF;  
+        
+    }
+    p{
+        width: 100%;
+        font-size: 20px;
+        text-align: justify;
+        text-justify: justify;
+        font-family: 'Gentium Book Plus', serif;
+        
+    }
+    .p{
+        font-size: 1.5em;
+        width: 100%;
+        margin: 30px 0px;
+    }
+    .text-c{
+        color: #3AB0FF;  
+    }
+    .span-c{
+        color: #F39237;
+    }
+    .phone{
+        width:350px;
+        height: 650px;
+    }
+    
+    /* banner */
+    .banner{
+        height: 100vh;
+        width: 100%;
+    }
+    header{
+        width: 100%;
+        height: 100px; 
+        background: rgb(250, 232, 232);
+        padding: 10px;
+    }
+    nav{
+        width: 85%;
+        margin: auto;
+        padding: 15px;
+    }
+    .hero, .hero-wrap{
+        padding: 10px;
+        width:100%;
+        height: calc(100vh-100px);
+    }
+    .hero-wrap,
+    .section-wrap,
+    .sectB-img{
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .hero-right, .hero-left,
+    .sectB-left, .sectB-right,
+    .section-img, .section-text,
+    .section-img2, .section-img2hide
+    {
+        width: 50%;
+    }
+    .hero-left{
+        padding:6% 2% 3% 8% ;
+    }
+
+    .mobile{
+        margin:20px 0px;
+        width:55%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .playstore{
+        width: 140px;
+        height: 40px;
+        margin-right: 10px;
+    }
+
+    .hero-right{
+        padding:10px 0px;
+        position: relative;
+    }
+    .hero-right img{
+        height: 480px;
+        width: 250px;
+        position: absolute;
+    }
+    #tiltedPhone{
+        z-index:-1;
+        width: 330px;
+        left: 32%;
+    }
+
+    /* section two */
+    .sectB{
+        height: 95vh;
+        width: 100%;
+        background: #ffffff;
+        margin-bottom: 10px solid #ffffff;
+    }
+    .empty{
+        height: 15vh;
+    }
+    .sectB-img{
+        height: 75vh;
+        width: 100%;
+        background: url("../img/blueBg.png");
+        background-size: cover;
+        color: #ffffff;
+    }
+    .sectB-left
+    {
+        display: block;
+    }
+    sectB-left{
+        position: relative;
+    }
+    #phoneHeld{
+        height: 700px;
+        width: 500px;
+        position: absolute;
+        top: 41.5em;
+    }
+    #def-p{
+        margin: 10px 0px 0px;
+        text-align: center;
+    }
+    .sectB-right {
+        padding:6em 2em 6em 0em;
+    }
+    .sectB > div > p{
+        text-align: center;
+        width: 100%;
+        font-size: 1.8em;
+        font-weight: bold;
+    }
+
+    /* Next four sections */
+    section{
+        height: 100vh;
+        width: 100%;
+    }
+    .section-wrap{
+        height: 100vh;
+        width: 86%;
+        margin: auto;
+    }
+    .section-img{
+        text-align:start;
+    }
+    .section-img2hide{
+        display: block;
+        text-align: right;
+    }
+    .section-img2{
+        display:none;
+    }
+    .section-text{
+        padding: 10em 2em 8em;
+    }
+    .section-text p{
+        width: 100%;
+    }
+    
+    .bg-img{
+        width: 100%;
+        height: 105vh; 
+        display: flex;
+        background: url("../img/phone-bg.png"); background-size: cover; 
+        background-repeat: no-repeat;
+    }
+
+    .bg-color{
+        height: 100vh;
+        background: #E8F5FE;
+        border-bottom: 50px solid #E8F5FE;
+    }
+    .download,
+    .download-wrap{
+        height: 60vh;
+    }
+
+}

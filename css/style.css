@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,600;0,900;1,500&family=Bungee+Shade&family=Chakra+Petch&family=Gentium+Book+Plus&family=Poppins:wght@300&family=Roboto+Slab&family=Rubik+Moonrocks&family=Titan+One&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+
+
+/* font styling */
+h1{
+    font-family: 'Titan One', cursive;
+    font-weight: 600;
+    font-size: 2.5em;
+    
+}
+h2,h5,p{
+    margin: 40px auto;
+    width: 92%;
+    /* margin: ; */
+    font-size: 1.2em;
+    font-family: 'Archivo', sans-serif;
+}
+h5,h2{
+    text-align:center;
+}
+h4{
+    margin: 35px 0px 15px;
+    font-size:2em;
+    font-family: 'Archivo', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+h2{
+    font-size: 2.5em;
+    line-height: 1;
+    font-family: 'Archivo', sans-serif;
+}
+#h2{
+    font-size: 2.5em;
+    width: 100%;
+    margin: 10px 0px;
+}
+h5{
+    font-family: 'Roboto Slab', serif;
+    font-size: 2em;
+    color: #3AB0FF;  
+    
+}
+p{
+    font-size: 20px;
+    text-align: justify;
+    text-justify: justify;
+    font-family: 'Gentium Book Plus', serif;
+}
+.p{
+    width: 90%;
+    margin: auto;
+}
+#def-p{
+    margin: 10px 0px;
+    text-align: center;
+}
+.text-c{
+    color: #3AB0FF;  
+}
+.span-c{
+    color: #F39237;
+}
+.phone{
+    width:250px;
+    height: 450px;
+}
+
+/* banner */
+.banner{
+    height: 125vh;
+    width: 100%;
+}
+header{
+    width: 100%;
+    height: 90px; 
+    background: rgb(250, 232, 232);
+    padding: 10px;
+}
+nav{
+    width: 85%;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+}
+.hero, .hero-wrap{
+    padding: 10px;
+    width:100%;
+    height: calc(125vh-100px);
+}
+
+.hero-wrap,
+.section-wrap,
+.sectB
+{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.hero-right, .hero-left,
+.sectB-left, .sectB-right,
+.section-img, .section-text,
+.section-img2
+{
+    width: 100%;
+}
+.hero-left{
+    padding:0;
+}
+
+.mobile{
+    width:100%;
+    display: flex;
+    margin:10px 0px 20px;
+    justify-content: center;
+}
+.playstore{
+    width: 140px;
+    height: 40px;
+}
+
+.hero-right{
+    padding:10px 0px;
+    position: relative;
+}
+.hero-right img{
+    height: 400px;
+   width: 200px;
+    position: absolute;
+    left:5%;
+    /* left: %; */
+}
+#tiltedPhone{
+    z-index:-1;
+    left: 38%;
+    width: 260px;
+}
+
+
+.sectB-img{
+    height: 400px;
+    width: 100%;
+    color: #ffffff;
+    background:none;
+    
+}
+
+.sectB-left,
+.empty{
+    display: none;
+}
+.sectB{
+    margin-top: 20%;
+    height: 70vh;
+}
+.sectB p{
+    width: 100%;
+    margin: 0px ;
+    font-weight: bold;
+}
+.sectB-right{
+    height: 60vh;
+    background: url("../img/blueBg.png");
+    background-size: cover;
+    padding:1em;
+    
+}
+.sectB-img{
+    height: 400px;
+    width: 100%;
+    margin-top: 0;
+    color: #ffffff;
+}
+.section-img, 
+.section-img2{
+    text-align: center;
+}
+.section-img2hide{
+    display: none;
+}
+.bg-img{
+    height: 40vh; 
+    background: url("../img/phone-bg.png"); background-size: cover;
+    background-repeat: no-repeat; 
+}
+
+.bg-color{
+    background: #E8F5FE;
+}
+
+.download{
+    width: 100%;
+    height: 65vh;
+    background: url("../img/blueBg.png");
+    padding:20px 0px; 
+}
+.download-wrap{
+    margin: 20px auto;
+}
+.bg-cover{
+    background:rgba(0,0,0,0.7);
+}
+.h2{
+    width: 100%;
+    text-align: center;
+}
+.mobile-2{
+    display: flex;
+    justify-content: center;
+}
+.mobile-2 img{
+    margin: 5px;
+}
+/* footer */
+footer{
+    width: 100%;
+    height: 50vh;
+    background: #1E2833;
+    padding: 10px 30px;
+}
+.footer-text{
+    height: 300px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    line-height: 1;
+}
+.footer-text p{
+    width: 100%;
+    text-align: center;
+    margin: 3px;
+}
+.icons{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+i{
+    margin: 10px;
+    font-size: 2em;
+    transition: .3s;
+}
+i:hover{
+    transform : translateY(15px);
+}
